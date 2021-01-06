@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "블로그를 만들었다!"
-summary: This is a sample post!!!
-author: Marsh Sandpiper
+summary: "This is a sample post!!!"
+author: "Marsh Sandpiper"
 date: "2021-01-06 20:10:00 +0900"
-category: blog
-thumbnail: /assets/images/bird.jpg
+category: "blog"
+tags: "blog"
+thumbnail: "/assets/images/bird.jpg"
 ---
 
 # 블로그를 만들었다!!
