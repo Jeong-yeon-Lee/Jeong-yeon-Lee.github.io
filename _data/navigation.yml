@@ -5,7 +5,7 @@ main:
   - title: "tag"
     url: /tags/
   - title: "Category"
-    url: /category-archive/
+    url: /categories/
     # url: /categories/
 
   # - title: "Quick-Start Guide"
