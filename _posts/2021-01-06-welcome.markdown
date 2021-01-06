@@ -1,16 +1,15 @@
+# Front Matter
+
 ---
-layout: post
+
+date: 2021-01-06
 title: "블로그를 만들었다!"
-summary: "This is a sample post!!!"
-author: "Marsh Sandpiper"
-date: "2021-01-06 20:10:00 +0900"
-category: "blog"
-tags: "blog"
-thumbnail: "/assets/images/bird.jpg"
+categories: blog
+tags: jekyll
+
+# 목차
+
+toc: true  
+toc_sticky: true
+
 ---
-
-# 블로그를 만들었다!!
-
-## 어려워
-
-### 어려워!!!
