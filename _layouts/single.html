@@ -52,18 +52,6 @@ include breadcrumbs.html %} {% endunless %} {% endif %}
               </h4>
             </header>
 
-            <!--내가 추가한 부분-->
-            {% if post.date %}
-            <span
-              class="page__date"
-              style="font-size: x-small; color: rgb(92, 89, 89)"
-              ><i class="far fa-clock" aria-hidden="true"></i>{{ post.date |
-              date: "%Y-%M-%d" }}</span
-            >
-            {% endif %}
-
-            <!-- 여기까지 -->
-
             {% include toc.html sanitize=true html=content h_min=1 h_max=6
             class="toc__menu" skip_no_ids=true %}
           </nav>
@@ -123,4 +111,14 @@ include breadcrumbs.html %} {% endunless %} {% endif %}
     </div>
   </div>
   {% endif %}
+
+  <!--내가 추가한 부분-->
+  {% if post.date %}
+  <span class="page__date" style="font-size: x-small; color: rgb(92, 89, 89)"
+    ><i class="far fa-clock" aria-hidden="true"></i>{{ post.date | date:
+    "%Y-%M-%d" }}</span
+  >
+  {% endif %}
+
+  <!-- 여기까지 -->
 </div>
