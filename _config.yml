@@ -15,15 +15,15 @@ remote_theme: "mmistakes/minimal-mistakes@4.21.0"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale: "en-US"
+locale: "ko-KR"
 title: "쇠청의 블로그"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
-name: "Marsh Sandpiper"
+name: "Marsh Sandpiper's blog"
 description: "쇠청의 블로그"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://jeong-yeon-lee.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository: "https://github.com/Jeong-yeon-Lee/Jeong-yeon-Lee.github.io/tree/main"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
@@ -51,7 +51,7 @@ reCaptcha:
   secret:
 atom_feed:
   path: # blank (default) uses feed.xml
-search: # true, false (default)
+search: true #false (default)
 search_full_content: # true, false (default)
 search_provider: # lunr (default), algolia, google
 algolia:
@@ -93,10 +93,10 @@ analytics:
 # Site Author
 author:
   name: "Marsh Sandpiper"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/profile.jpg"
   bio: "쇠청다리도요"
-  location: "Seoul"
-  email:
+  location: "Seoul, Korea"
+  email: "0906ljy@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -112,7 +112,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/Jeong-yeon-Lee"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
