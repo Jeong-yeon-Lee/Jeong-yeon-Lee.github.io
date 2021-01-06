@@ -25,7 +25,7 @@ url: "https://jeong-yeon-lee.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "https://github.com/Jeong-yeon-Lee/Jeong-yeon-Lee.github.io/tree/main"
 teaser: "/assets/images/profile.jpg"
-logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo: "/assets/images/sandpiper.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
@@ -100,7 +100,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "0906ljy@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
