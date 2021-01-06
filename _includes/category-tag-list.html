@@ -1,3 +1,4 @@
+<!-- _내가 추가함 -->
 <!-- _include/category-tag-list.html -->
 
 <p class="page__taxonomy">
@@ -17,4 +18,21 @@
     </a>
     {% endfor %}
     </p>
+</p>
+
+<p class="page__taxonomy">
+  <strong
+    ><i class="fas fa-tags" aria-hidden="true"></i>
+    Tags:
+  </strong>
+  <br /><br />
+  {% for tag in sortedtags reversed %} {% assign tagitems = tag | split: '#' %}
+  <a
+    href="/tags/{{ tagitems[1] | slugify: 'pretty' }}"
+    class="page__taxonomy-item"
+    rel="tag"
+  >
+    {{ tagitems[1] }}
+  </a>
+  {% endfor %}
 </p>
