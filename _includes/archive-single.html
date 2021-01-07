@@ -32,12 +32,12 @@ post.id %} {% assign title = post.title | markdownify | remove: "
     </p>
     {% endif %}
 
-    <!--내가 추가한 부분-->
+    <!--내가 추가한 부분 날짜  single파일과 함께 
     {% if post.date %}
     <span class="page__date"
       ><i class="far fa-clock" aria-hidden="true"></i>{{ post.date | date:
       "%Y-%M-%d" }}</span
     >
-    {% endif %}
+    {% endif %}-->
   </article>
 </div>
