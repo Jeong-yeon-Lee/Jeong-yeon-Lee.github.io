@@ -27,7 +27,11 @@ post.id %} {% assign title = post.title | markdownify | remove: "
       {% endif %}
     </h2>
     {% include page__meta.html type=include.type %} {% if post.excerpt %}
-    <p class="archive__item-excerpt" itemprop="description">
+    <p
+      class="archive__item-excerpt"
+      itemprop="description"
+      style="margin-top: 2px"
+    >
       {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
     </p>
     {% endif %}
