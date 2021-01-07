@@ -15,7 +15,11 @@ post.id %} {% assign title = post.title | markdownify | remove: "
       <img src="{{ teaser | relative_url }}" alt="" />
     </div>
     {% endif %}
-    <h2 class="archive__item-title no_toc" itemprop="headline">
+    <h2
+      class="archive__item-title no_toc"
+      itemprop="headline"
+      style="margin: 2px"
+    >
       {% if post.link %}
       <a href="{{ post.link }}">{{ title }}</a>
       <a href="{{ post.url | relative_url }}" rel="permalink"
