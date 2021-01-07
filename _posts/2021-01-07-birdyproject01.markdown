@@ -1,6 +1,6 @@
 ---
 title: Birdy Seoul 앞으로의 계획
-excerpt: 버디서울의 앞으로의 계획을 생각해 본다...
+excerpt: 버디서울의 앞으로의 계획을 생각해 본다,,,
 
 header:
   teaser: /assets/images/birdyseoul.jpg
