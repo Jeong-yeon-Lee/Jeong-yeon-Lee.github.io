@@ -9,14 +9,12 @@ header:
   caption: birdySeoul
 
 categories:
-  - project
-tags:
-  - birdyseoul
+  - Project
 ---
 
 # Birdy Seoul 프로젝트 계획하기!
 
-## <앞으로 만들 기능>
+## <span style="color:green">앞으로 만들 기능</span>
 
 - 회원가입, 로그인 기능
 - 계정, 프로필 페이지

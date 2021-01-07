@@ -9,7 +9,7 @@ header:
   caption: 캡션 캡션
 
 categories:
-  - blog
+  - Blog
 ---
 
 # jekyll로 블로그 만들기
