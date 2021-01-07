@@ -15,11 +15,7 @@ post.id %} {% assign title = post.title | markdownify | remove: "
       <img src="{{ teaser | relative_url }}" alt="" />
     </div>
     {% endif %}
-    <h2
-      class="archive__item-title no_toc"
-      itemprop="headline"
-      style="margin: 2px; height: 50px"
-    >
+    <h2 class="archive__item-title no_toc" itemprop="headline">
       {% if post.link %}
       <a href="{{ post.link }}">{{ title }}</a>
       <a href="{{ post.url | relative_url }}" rel="permalink"
@@ -42,11 +38,7 @@ post.id %} {% assign title = post.title | markdownify | remove: "
 
     <!--  -->
     {% include page__meta.html type=include.type %} {% if post.excerpt %}
-    <p
-      class="archive__item-excerpt"
-      itemprop="description"
-      style="margin-top: 2px; margin-bottom: 12px"
-    >
+    <p class="archive__item-excerpt" itemprop="description">
       {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
     </p>
     {% endif %}
