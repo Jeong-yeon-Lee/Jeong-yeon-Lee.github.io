@@ -18,7 +18,7 @@ post.id %} {% assign title = post.title | markdownify | remove: "
     <h2
       class="archive__item-title no_toc"
       itemprop="headline"
-      style="margin: 2px"
+      style="margin: 2px; height: 50px"
     >
       {% if post.link %}
       <a href="{{ post.link }}">{{ title }}</a>
@@ -31,7 +31,11 @@ post.id %} {% assign title = post.title | markdownify | remove: "
       {% endif %}
     </h2>
     {% include page__meta.html type=include.type %} {% if post.excerpt %}
-    <p class="archive__item-excerpt" itemprop="description" style="margin: 2px">
+    <p
+      class="archive__item-excerpt"
+      itemprop="description"
+      style="margin-top: 2px; margin-bottom: 12px"
+    >
       {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
     </p>
     {% endif %}
