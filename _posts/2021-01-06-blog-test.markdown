@@ -1,12 +1,14 @@
 ---
 title: "블로그 테스트중"
+subtitle: "블로그 만들기"
 excerpt: "엄청나게 어려워!"
-
 categories:
   - Study
-date: "2021-01-06"
+date: 2021-01-06 20:30
 toc: true
 toc_sticky: true
+post-header: true
+header-img: /asset/images/bird.jpg
 # tags:
 #   - design
 ---
