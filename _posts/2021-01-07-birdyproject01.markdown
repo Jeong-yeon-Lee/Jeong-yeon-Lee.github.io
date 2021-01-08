@@ -25,8 +25,9 @@ categories:
 
 - 사진 업로드
 - 지도에 새 모양 마크 표시
-  > </br>(진행중) 네이버 지도 문서 참고중
-  > </br>-geocoding 포함해서 다시 발급해서 고쳐야할듯
+  </br><span style="font-size:small; color=grey">(진행중) 네이버 지도 문서 참고중</span>
+  </br><span style="font-size:small; color=grey">geocoding 포함해서 다시 발급해서 고쳐야할듯
+
 - 기록하기- 모달창으로 변경
 - 탐조기록 모아볼 때 바둑판식 일정하게 배열
 - 공원 추가
