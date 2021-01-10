@@ -18,7 +18,7 @@ git 너무 어렵다. 블로그 만들고 싶어서 엉엉 울면서 배운 명�
 
 1. 로컬이랑 리모트 리포지토리[원격 저장소]랑 연결
 
-```Bash
+```bash
 # 로컬 내 블로그 폴더로 이동!
 cd jeong-yeon-lee.github.io
 # 로컬 저장소로 지정!
@@ -38,7 +38,7 @@ $ git push -u origin main
 
 2. 브랜치
 
-```Bash
+```bash
 # 브랜치 보기
 $ git branch
 # 브랜치 만들기
@@ -53,7 +53,7 @@ $ git checkout [브랜치 이름]
 
 3. 잘못된 커밋 삭제하고 돌아가기
 
-```Bash
+```bash
 # 특정 커밋으로 돌아가기
 $ git reset --[옵션] [돌아가고 싶은 커밋번호]
 # 잘못된 커밋들 완전 삭제후 이전상태로 돌아가기
@@ -66,7 +66,7 @@ $ git push -f origin main
 
 4. 기타 사용한 것
 
-```Bash
+```bash
 # 파일의 내용 보기
 $ cat [파일명]
 # 폴더 목록 보기
