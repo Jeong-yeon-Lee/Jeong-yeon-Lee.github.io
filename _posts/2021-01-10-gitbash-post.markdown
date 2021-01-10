@@ -1,12 +1,12 @@
 ---
-title: [TIL] git, git bash 명령어 
-excerpt: 블로그를 만들면서 몇가지 git 명령어에 익숙해졌다.  
+title: TIL) git, git bash 명령어
+excerpt: 블로그를 만들면서 몇가지 git 명령어에 익숙해졌다.
 
 header:
   teaser: /assets/images/blessing.png
   overlay_image: /assets/images/blessing.png
   overlay_filter: 0.2
-  # caption: 
+  # caption:
 
 categories:
   - TIL
