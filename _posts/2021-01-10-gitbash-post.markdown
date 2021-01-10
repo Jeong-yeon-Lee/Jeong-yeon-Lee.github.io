@@ -1,5 +1,5 @@
 ---
-title: TIL) git, git bash 명령어
+title: TIL. 210110) git, git bash 명령어
 excerpt: 블로그를 만들면서 몇가지 git 명령어에 익숙해졌다.
 
 header:
