@@ -1,5 +1,5 @@
 ---
-title: TIL. 210110) git, git bash 명령어
+title: TIL. 210110) git 명령어
 excerpt: 블로그를 만들면서 몇가지 git 명령어에 익숙해졌다.
 
 header:
@@ -12,9 +12,9 @@ categories:
   - TIL
 ---
 
-# 블로그를 만들며 익숙해진 git bash 명령어들
+# 블로그를 만들며 익숙해진 git 명령어들
 
-git 너무 어렵다. 블로그 만들고 싶어서 엉엉 울면서 배운 명령어들! 아직 자세한 개념은 더 공부해야하지만, git bash로 git에 뭔가를 연결시켜서 올릴 수 있게 되어 뿌듯하다! 다음엔 좀더 자세하게 공부해봐야지,,,
+git 너무 어렵다. 블로그 만들고 싶어서 엉엉 울면서 배운 명령어들! &#128518; 아직 자세한 개념은 더 공부해야하지만, git bash로 git에 뭔가를 연결시켜서 올릴 수 있게 되어 뿌듯하다! 다음엔 좀더 자세하게 공부해봐야지,,,
 
 #### 1. 로컬이랑 리모트 리포지토리[원격 저장소]랑 연결
 
@@ -31,7 +31,7 @@ $ git commit -m "커밋메시지"
 #브랜치가 master로 되어있어서 main으로 바꿔감
 $ git branch -M main
 # Github의 원격 저장소와 연결!!!
-$ git remote add git@github.com:Jeong-yeon-Lee/Jeong-yeon-Lee.github.io.git[원격저장소 주소]
+$ git remote add git@github.com:Jeong-yeon-Lee/Jeong-yeon-Lee.github.io.git(원격저장소 주소)
 # 원격 저장소에 저장!
 $ git push -u origin main
 ```
@@ -42,39 +42,44 @@ $ git push -u origin main
 # 브랜치 보기
 $ git branch
 # 브랜치 만들기
-$ git branch [브랜치 이름]
+$ git branch {브랜치 이름}
 # 브랜치 고치기
-$ git branch -m [브랜치 원래이름] [바꿀이름]
+$ git branch -m {브랜치 원래이름} {바꿀이름}
 # 브랜치 삭제하기
-$ git branch -d [브랜치 이름]
+$ git branch -d {브랜치 이름}
 # 특정 브랜치로 가기
-$ git checkout [브랜치 이름]
+$ git checkout {브랜치 이름}
 ```
 
 #### 3. 잘못된 커밋 삭제하고 돌아가기
 
 ```bash
 # 특정 커밋으로 돌아가기
-$ git reset --[옵션] [돌아가고 싶은 커밋번호]
+$ git reset --{옵션} {돌아가고 싶은 커밋해시}
 # 잘못된 커밋들 완전 삭제후 이전상태로 돌아가기
 # (참고)협업시에는 위험함!
-$ git reset --hard [돌아가고 싶은 커밋번호]
+$ git reset --hard {돌아가고 싶은 커밋해시}
 # 원하는 커밋으로 돌아온 후, 오류없이 강제 push
 $ git push -f origin main
 
 ```
 
-#### 4. 기타 사용한 것
+#### 4. 기타 사용한 것(Linux CLI 명령어들)
 
 ```bash
+# 기본적으로
+$ {명령어} {location/of/file}
 # 파일의 내용 보기
-$ cat [파일명]
-# 폴더 목록 보기
+$ cat {파일명}
+# 현재 폴더안에 있는 것들 보기
 $ ls
 # 폴더 들어가기
-$ cd
+$ cd {폴더명}
 # 파일(폴더) 삭제
-$ rm
+$ rm {파일/폴더명}
 # 물어보지 않고 강제 삭제
-$ rm -rf
+# -f (--force)와 -r (--recursive)옵션 두개를 같이 주는 것이다.
+$ rm -rf {파일/폴더명}
+$ rm -r-f {파일/폴더명}
+
 ```
