@@ -1,0 +1,40 @@
+---
+title: TIL. 210111)
+excerpt: 한거없지만 쥐어 짜보는 오늘 배운 것
+categories:
+  - TIL
+tags:
+  - git
+---
+
+## <span style="color:purple">오늘 한 일</span>
+
+---
+
+원래 계획은 JAVA 강의와 Javascript 강의를 듣는 것이었으나, 논문때문에 &#128529;망! 오늘은 BirdySeoul 계획을 조금 짜고, 같이 하게된 팀원분들과 이야기 나눈 것이 전부이다. 앗 영어 타자 연습도 했다. (무려 20타나 빨라짐!걀걀걀)
+
+<span style="color:green">Jeongyeon Lee</span>  
+-플라스크 내에서 기능들 구현해보기 (사진 업로드/ 지도수정/ 모달창)  
+-리액트로 조금씩 바꿔보기  
+<span style="color:green">Sooyoung Shin</span>  
+-로그인구현 및 GKE 또는 EKS로 운영환경 이전  
+-인증서버: Spring Security + PostgreSQL 를 이용해서 JWT를 발급하는 방식  
+-MongoDB < RDB / \*ACID  
+-빌드툴: Gradle  
+<span style="color:green">Dongsun Yoo</span>  
+-플라스크 및 Jeongyeon Lee의 지저분한 코드 해독...
+
+- 내가 아는 로그인 구현 방식은 python flask 와 pymongo, pyjwt를 이용하여 해시함수로 비밀번호를 저장하고, 브라우저에 토큰을 부여하는 방식이었는데, 새로운 방식을 들어서 재밌었다. 모르는 말이 많지만 얼른 공부해서 팀원분들의 말을 알아듣도록 해야지,,,&#128531; 나는 너무 허접이다!
+
+- MongoDB가 짱인줄알았는데, DB도 엄청 많은 것이 있었다. RDB가 ACID면에서 MongoDB보다 훌륭하다고 들었다. 논문을 어서 해치우고 이 어려운 말들을 이해해봐야겠다.
+-
+- 빌드툴이 뭐지? 검색해도 모르겠다. 차차 공부해나가기...
+
+## <span style="color:purple">내일 할 일</span>
+
+---
+
+내일은 오늘 밀린것 까지 두배로 해야 한다(과연!)&#128126;안하면 똥멍청이~
+
+- JAVA 강의 본격적으로 시작하기 (생활코딩, 인프런)
+- Javascript 강의 다시 듣기(패캠)
