@@ -22,7 +22,8 @@ tags:
 
 ---
 
-<오늘의 회고>
+#### 오늘의 회고
+
 Hello world 어려운거 아닌데 엄청 헤매고 씨름하다가 지쳐버린 하루... 프로그래밍 기초로 진법을 배웠는데, 2진수까지는 이해가 가는데 그 이후부터는 소화불량이다. 아직은 뭔가 "이게..왜 되지?"의 상태라 뭔가 정리할 수 없다. 일단 표기법은 메모해둔다..
 
 ```java
@@ -42,6 +43,8 @@ public class BinaryTest {
 		System.out.println(hNum);
 	}
 ```
+
+---
 
 ## <span style="color:purple">내일 할 일</span>
 
