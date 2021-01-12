@@ -1,0 +1,17 @@
+---
+title: TIL. 210112)Hello, World!
+excerpt: JAVA, Hello World 성공!!!
+categories:
+  - TIL
+tags:
+  - JAVA
+  - Javascript
+---
+
+## <span style="color:purple">오늘 한 일</span>
+
+---
+
+국비지원교육 적응을 위한 자바교육 선행학습 시작...엄청난 우여곡절 끝에 자바에서 'Hello World' 출력에 성공했다. 이렇게 감격스러울 수가...!(소리지름) Java설치와 eclipse 설치와 모든것이 완전히 어려운 상태...과연 잘 해나갈 수 있을 것인가...!
+
+![HelloWorld!](/assets/images/til/helloworld_java.jpg “헬로월드!”)

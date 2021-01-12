@@ -4,7 +4,7 @@ excerpt: 한거없지만 쥐어 짜보는 오늘 배운 것
 categories:
   - TIL
 tags:
-  - git
+  - DB
 ---
 
 ## <span style="color:purple">오늘 한 일</span>
