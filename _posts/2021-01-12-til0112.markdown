@@ -12,6 +12,44 @@ tags:
 
 ---
 
-국비지원교육 적응을 위한 자바교육 선행학습 시작...엄청난 우여곡절 끝에 자바에서 'Hello World' 출력에 성공했다. 이렇게 감격스러울 수가...!(소리지름) Java설치와 eclipse 설치와 모든것이 완전히 어려운 상태...과연 잘 해나갈 수 있을 것인가...!
+- Java 공부 시작하기  
+  국비지원교육 적응을 위한 자바교육 선행학습 시작...박은종선생님 강의와 생활코딩을 병행하기로 결정! 엄청난 우여곡절 끝에 자바에서 'Hello World' 출력에 성공했다. 이렇게 감격스러울 수가...!(소리지름) Java설치와 eclipse 설치와 모든것이 완전히 어려운 상태...과연 잘 해나갈 수 있을 것인가...!
 
 ![HelloWorld!](/assets/images/til/helloworld_java.jpg)
+
+- Javascript 강의듣기(패캠)  
+  반복문과 함수에 대해서 가장 기본적인 것만 쓰고 있었어서, 들어보았다. 반복문이 for가 전부가 아니었고! 함수가 function이 전부가 아니었다... 엄청 다양한 방식들이 있었는데 강의가 어려워서 혼자 좀 실습을 해봐야 알 것같음.. 됴륵
+
+---
+
+<오늘의 회고>
+Hello world 어려운거 아닌데 엄청 헤매고 씨름하다가 지쳐버린 하루... 프로그래밍 기초로 진법을 배웠는데, 2진수까지는 이해가 가는데 그 이후부터는 소화불량이다. 아직은 뭔가 "이게..왜 되지?"의 상태라 뭔가 정리할 수 없다. 일단 표기법은 메모해둔다..
+
+```java
+package binary;
+
+public class BinaryTest {
+
+	public static void main(String[] args) {
+		int num = 10;
+		int bNum = 0B1010;   //2진수 0B로 표시 //10
+		int oNum = 012;   //8진수 0으로 표시//10
+		int hNum = 0XA;   //16진수 0X로 표시//10
+
+		System.out.println(num);
+		System.out.println(bNum);
+		System.out.println(oNum);
+		System.out.println(hNum);
+	}
+```
+
+## <span style="color:purple">내일 할 일</span>
+
+논문아 제발 좀 내 손을 떠나주렴... 내일은 공부좀 할 수 있기를
+
+- Java: 변수와 자료형(2-3) 인강
+- Javascript: 객체와 클래스(A-D) 인강
+
+## <span style="color:purple">앞으로</span>
+
+- 정처기 교재가 너무 빨리 와버렸다. 이기적 교재를 샀는데 방대한 내용과 양에 압도 걀걀,, 아직 강의 업로드도 다 안된 것 같으니 일주일에 3개씩만 들으면 매우 칭찬을,,할 것,,,
