@@ -1,0 +1,51 @@
+---
+title: TIL. 210117)
+excerpt: 느릿느릿 인강듣는 하루
+categories:
+  - TIL
+tags:
+  - JAVA
+---
+
+## <span style="color:purple">오늘 한 일</span>
+
+- Java/ 상수와 리터럴
+- Java/ 형변환
+- Java/ 연산자
+- Java/ 제어흐름-조건문, 반복문
+
+---
+
+Python의 print 와 `Javascript()` 의 `console.log()` 처럼 `System.out.println()`도 그냥 터미널에 보여주기만 하는 건 줄 알았는데, 변수의 값이 바뀌어서 신기했당.
+
+```java
+package assignment;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		int num1 = 10;
+		System.out.println(num1 += 1);
+		System.out.println(num1 %= 10);
+		num1 -= 1;// num1=num1-1
+		System.out.println(num1);
+
+	}
+
+}
+```
+
+```
+//이렇게 나옴!
+11
+1
+0
+
+```
+
+---
+
+## <span style="color:purple">내일 할 일</span>
+
+- Java/ 클래스와 객체1 (1-2)
