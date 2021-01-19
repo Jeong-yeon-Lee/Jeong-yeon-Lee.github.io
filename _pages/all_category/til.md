@@ -6,6 +6,8 @@ header:
   overlay_image: /assets/images/blessing.png
   overlay_filter: 0.3
 author_profile: true
+sidebar:
+  nav: "docs"
 ---
 
 <h2> 📖 React - {{ site.all_caterory.til | size }} 개의 글 </h2>
