@@ -1,7 +1,6 @@
 ---
-title: 현업 기술 용어들 정리
-excerpt: 긴가민가 어려워서 정리해보았다!
-
+title: 프론트엔드 기술 용어들 정리
+excerpt: 현업 구인 공고글에 있는 기술 용어들
 header:
   teaser: /assets/images/blessing.png
   overlay_image: /assets/images/blessing.png
@@ -10,3 +9,25 @@ header:
 categories:
   - Memos
 ---
+
+현업 구인 공고글들을 보다보니 긴가민가 모든 것이 헷갈려서 자료들을 참고해서 간단하게 정리해본다!
+
+### 웹표준
+
+- 웹에서 표준적으로 사용되는 기술이나 규칙
+- 표준화 단체인 W3C가 권고한 표준안에 따라 웹사이트를 작성할 때 이용하는 HTML, CSS, JavaScript 등에 대한 규정이 담겨 있다
+- 어떤 운영체제나 브라우저를 사용하더라도 웹페이지가 동일하게 보이고 정상 작동해야함을 의미
+
+출처 및 참고: https://goddaehee.tistory.com/244
+
+### SPA(Single Page Application) 서비스 개발
+
+- 서버로부터 완전한 새로운 페이지를 불러오지 않고 현재의 페이지를 동적으로 다시 작성함으로써 사용자와 소통하는 웹 애플리케이션이나 웹사이트
+- 현재 웹개발의 트랜드! 라고 한다. SPA형태는 브라우저에 최초에 한번 페이지 전체를 로드하고, 이후부터는 특정 부분만 Ajax를 통해 데이터를 바인딩하는 방식
+- SPA 중심에는 대표적인 라이브러리/프론트엔드 프레임워크 React, Vue, Angular가 있다.
+
+![HelloWorld!](https://linked2ev.github.io/assets/img/devlog/201808/2018-08-01-SPA-step1.png)
+
+출처 및 참고: https://linked2ev.github.io/devlog/2018/08/01/WEB-What-is-SPA/
+
+#### React

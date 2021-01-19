@@ -17,8 +17,3 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-docs:
-  - title: Front-End
-    children:
-      - title: "TIL "
-        url: /all_category/til
