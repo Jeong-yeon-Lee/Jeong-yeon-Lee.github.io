@@ -279,3 +279,6 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+#사이드바기능
+category_dir: /category/
