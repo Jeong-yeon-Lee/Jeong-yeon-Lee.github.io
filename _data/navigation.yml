@@ -17,7 +17,7 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-sidebar-contents:
+docs:
   - title: Front-End
     children:
       - title: "TIL "
