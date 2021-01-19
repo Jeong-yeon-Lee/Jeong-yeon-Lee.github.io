@@ -1,0 +1,12 @@
+---
+title: 현업 기술 용어들 정리
+excerpt: 긴가민가 어려워서 정리해보았다!
+
+header:
+  teaser: /assets/images/blessing.png
+  overlay_image: /assets/images/blessing.png
+  overlay_filter: 0.2
+
+categories:
+  - Memos
+---
