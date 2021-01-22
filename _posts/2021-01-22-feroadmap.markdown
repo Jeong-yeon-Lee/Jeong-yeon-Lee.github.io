@@ -27,6 +27,5 @@ tags:
 4. <https://abc2080.tistory.com/entry/2018-web-developer-frontend>
 
 ![FE_roadmap](/assets/images/memo/frontend.png)  
-![FE_roadmap](/assets/images/memo/frontendkor.png)  
 ![FE_roadmap](/assets/images/memo/fe1.png)  
 ![FE_roadmap](/assets/images/memo/fe2.png)
