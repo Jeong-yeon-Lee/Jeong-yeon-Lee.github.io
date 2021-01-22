@@ -1,0 +1,47 @@
+---
+title: 언젠가는 따라하고 싶은 사이트들
+excerpt: 언젠가는...언젠가는...언젠가...
+header:
+  teaser: /assets/images/blessing.png
+  overlay_image: /assets/images/blessing.png
+  overlay_filter: 0.2
+
+categories:
+  - Memos
+tags:
+  - FE
+---
+
+### 멋진 사이트들!
+
+언젠가는 꼭 이렇게 구현해보고 싶다,,,  
+메모해두고 목표로 삼아야지 &#128034;&#128034;&#128034;
+
+1. 레스토랑 오늘  
+   <https://www.restaurantoneul.com/>
+
+2. 비레디
+   <https://beready.co.kr/>
+
+3. 코드베르그
+   <https://codberg.com/>
+
+4. 울진
+   <http://www.uljin.go.kr/tour/index.uljin>
+
+5. 아트파이브
+   <http://www.artfive.co.kr/>
+
+6. 플러스엑스 오브젝트
+   <https://object.plus-ex.com/>
+
+7. 레스케이프 호텔
+   <https://www.lescapehotel.com/main>
+
+### 프론트엔드 개발자 포폴 사이트들
+
+1. <http://mk2sci.dothome.co.kr/>
+2. <https://kimwoohyun.github.io/portfolio/>
+3. <http://www.parkmiran.com/>
+4. <http://mongkkomang.com/introduce.html>
+5. <http://kangfronter-site.com/index.html>
