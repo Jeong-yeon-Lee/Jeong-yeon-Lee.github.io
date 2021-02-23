@@ -1,0 +1,56 @@
+---
+title: TIL. 210223)
+excerpt: 절대경로와 상대경로
+categories:
+  - TIL
+tags:
+  - Memos
+---
+
+## 절대경로와 상대경로 &#128640;
+
+### 오늘 배운 것
+
+1. HTML1.0~3.0 의 주요 태그들과 기능들
+2. 절대경로와 상대경로
+
+오늘 배운 것 중에 절대경로와 상대경로는 조금 헷갈리는 것 같아서 정리해둔다.
+
+#### 절대경로&#128640;
+
+- 웹페이지나, 파일의 절대적인 고유한 경로
+- 내가 작성중인 파일이 어디에 위치하든 동일한 경로
+- 도메인 변경 등의 변경사항이 생길때 하나하나 다 코드를 고쳐야 한다는 점에서 번거롭다
+- 예시:  
+  https://jeong-yeon-lee.github.io/til/til0222/  
+  C:\users\document\sandpiper.jpg
+
+#### 상대경로&#128640;
+
+- 현재 위치한 곳 기준으로의 경로 (이미지를 삽입할 html파일을 기준으로 하는 이미지 위치)
+- 현재 작성중인 파일의 위치에 따라 달라짐
+- 도메인 변경 등의 변경사항이 생겨도 고칠 필요 없음
+- 예시:  
+  / : 최상위 디렉토리(루트)
+  ./ : 현재 위치
+  ../: 현재위치의 상위 위치
+
+- 폴더 구성이 다음과 같을 때,
+  ![상대경로](/assets/images/til/0223.png)
+
+```html
+# popup.html에서 shop_title.png 의 경로
+<img src="../../shop/shop_title.png" />
+# 주의 ../.././shop/shop_title.png 가 아님
+```
+
+```html
+# shop.html에서 close.png 의 경로
+<img src="../admin/popup/close.png" />
+
+# shop.html에서 ico2.png 의 경로
+<img src="../admin/ico2.png" />
+
+# notice.html에서 close.png의 경로
+<img src="./admin/popup/close.png" />
+```
